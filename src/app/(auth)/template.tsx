@@ -16,7 +16,7 @@ export default function AuthLayout({
 }) {
   const pathname = usePathname();
   const [input, setInput] = useState("");
-
+  
   return (
     <div>
       <div>
